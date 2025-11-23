@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .box {
+  height: 60%;
+  width: 50%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+.main .box h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+h2 span{
+  color:lightseagreen;
+}
+.main .box .outer {
+  height: 25px;
+  width: 90%;
+  background-color: rgb(202, 197, 197);
+  border-radius: 40px;
+}
+.main .box .outer .inner {
+  height: 100%;
+  width: 0%;
+  background-color: greenyellow;
+  border-radius: 40px;
+}
+.main .box .bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box .bottom h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.main .box .bottom button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgb(31, 197, 31);
+  border: none;
+  cursor:pointer;
+  font-weight: 700;
+  font-size: 25px;
+}
+.main .box .bottom button:active {
+  scale: 0.9;
+}/*# sourceMappingURL=style.css.map */
